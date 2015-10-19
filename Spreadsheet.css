@@ -1,0 +1,38 @@
+
+a:link, a:visited {
+     background-color:lime;
+            text-decoration:none;
+            color:black;
+            display:block;
+            width:250px;
+            text-align:center;
+            border:3px solid black;
+            font-size:20;
+            background-repeat:no-repeat;
+            background-size:cover;
+}
+  a:hover{
+      background-image:url("https://v.cdn.vine.co/r/avatars/D5740985BB1047705303661056000_pic-r-1392766573507347ab25f4c.jpg.jpg?versionId=NNTq76jyQVv3wY.FVAmzPxjn.sa8oK_1");
+      background-size:30px;
+  } 
+  a:active {
+background-color:red;        
+}
+li {
+    list-style:none;
+    font-size:30px;
+    text-align:left;
+    border:30px;
+}
+hi {
+    border:3px solid black;
+    text-align:center;
+    font-size:40px;
+    background-color:red;
+}
+body {
+    background-image:url("http://1.bp.blogspot.com/-OCLTYz1by9o/UzPzhIUjZxI/AAAAAAAANCk/qrYtRYA571k/s1600/Viktor-League-of-Legends-Wallpaper-full-HD-4.png");
+    background-size:cover;
+    background-origin:center;
+    background-attachment:fixed;
+}
