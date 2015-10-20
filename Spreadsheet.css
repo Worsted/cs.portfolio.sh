@@ -23,6 +23,7 @@ li {
     font-size:30px;
     text-align:left;
     border:30px;
+    transition-duration:0.5s all linear
 }
 hi {
     border:3px solid black;
@@ -33,6 +34,5 @@ hi {
 body {
     background-image:url("http://1.bp.blogspot.com/-OCLTYz1by9o/UzPzhIUjZxI/AAAAAAAANCk/qrYtRYA571k/s1600/Viktor-League-of-Legends-Wallpaper-full-HD-4.png");
     background-size:cover;
-    background-origin:center;
     background-attachment:fixed;
 }
