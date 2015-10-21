@@ -12,8 +12,8 @@ a:link, a:visited {
             background-size:cover;
 }
   a:hover{
-      background-image:url("https://v.cdn.vine.co/r/avatars/D5740985BB1047705303661056000_pic-r-1392766573507347ab25f4c.jpg.jpg?versionId=NNTq76jyQVv3wY.FVAmzPxjn.sa8oK_1");
-      background-size:30px;
+      background-image:url("http://orig05.deviantart.net/b68c/f/2014/025/7/3/happy_lenny_emote__large__by_thedalmin-d73mrnz.gif");
+      background-size:40%;
   } 
   a:active {
 background-color:red;        
@@ -29,7 +29,7 @@ hi {
     border:3px solid black;
     text-align:center;
     font-size:40px;
-    background-color:red;
+    background-color:orange;
 }
 body {
     background-image:url("http://1.bp.blogspot.com/-OCLTYz1by9o/UzPzhIUjZxI/AAAAAAAANCk/qrYtRYA571k/s1600/Viktor-League-of-Legends-Wallpaper-full-HD-4.png");
