@@ -1,28 +1,87 @@
 #lel {
     text-align:center;
     font-size:50px;
+    background-color:lime;
+    margin-right:400px;
+    margin-left:400px;
 }
 #html {
     font-size:20px;
     float:left;
-    padding:20px;
+    padding:50px;
     width:350px;
-    
+    background-color:lime;
 }
 #css {
     float:right;
     font-size:20px;
-    padding:20px;
+    padding:50px;
     width:350px;
     text-align:right;
+    background-color:lime;
 }
 
 #simi {
-    table-column:center;
     font-size:20px;
     text-align:center;
+    float:inherit;
+    background-color:red;
+
 }
 
 #title {
     font-size:40px;
+}
+#table {
+    border:1px solid black;
+    width:434px;
+    border-collapse:collapse;
+    background-color:blue;
+    font-size:25px;
+}
+th,
+td {
+    border:1px solid black;
+    width:150px;
+    text-align:center;
+}
+hi {
+    font-size:24px;
+}
+#tim {
+    width:300px;
+}
+#hak {
+    width:300px;
+}
+body {
+    background-image:url("http://orig05.deviantart.net/b68c/f/2014/025/7/3/happy_lenny_emote__large__by_thedalmin-d73mrnz.gif");
+}
+#allah {
+    background-color:blue;
+}
+
+a:link, a:visited {
+     background-color:orange;
+            text-decoration:none;
+            color:black;
+            display:block;
+            width:250px;
+            text-align:center;
+            border:3px solid black;
+            font-size:20;
+            background-repeat:no-repeat;
+            background-size:cover;
+}
+  a:hover{
+      background-image:url("http://orig05.deviantart.net/b68c/f/2014/025/7/3/happy_lenny_emote__large__by_thedalmin-d73mrnz.gif");
+      background-size:40%;
+  } 
+  a:active {
+background-color:red;        
+}
+li {
+    font-size:26px;
+    text-align:center;
+    border:30px;
 }
