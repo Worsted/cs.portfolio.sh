@@ -1,0 +1,28 @@
+#lel {
+    text-align:center;
+    font-size:50px;
+}
+#html {
+    font-size:20px;
+    float:left;
+    padding:20px;
+    width:350px;
+    
+}
+#css {
+    float:right;
+    font-size:20px;
+    padding:20px;
+    width:350px;
+    text-align:right;
+}
+
+#simi {
+    table-column:center;
+    font-size:20px;
+    text-align:center;
+}
+
+#title {
+    font-size:40px;
+}
