@@ -33,15 +33,29 @@
     font-size:40px;
 }
 #table {
-    border:1px solid black;
+    border:2px;
+    border-color:white;
+    border-style:solid;
     width:434px;
     border-collapse:collapse;
     background-color:blue;
     font-size:25px;
 }
+#table1 {
+    border:2px;
+    border-color:white;
+    border-style:solid;
+    font-size:25px;
+    text-align:center;
+    border-collapse:collapse;
+    width:35%;
+    background-color:red;
+}
 th,
 td {
-    border:1px solid black;
+    border:2px;
+    border-color:white;
+    border-style:solid;
     width:150px;
     text-align:center;
 }
@@ -59,6 +73,9 @@ body {
 }
 #allah {
     background-color:blue;
+}
+#allahu {
+    background-color:red;
 }
 
 a:link, a:visited {
@@ -84,4 +101,10 @@ li {
     font-size:26px;
     text-align:center;
     border:30px;
+}
+#k {
+    color:white;
+}
+#bold {
+    font-weight:bold;
 }
