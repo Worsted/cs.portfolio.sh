@@ -48,8 +48,9 @@
     font-size:25px;
     text-align:center;
     border-collapse:collapse;
-    width:35%;
+    width:32%;
     background-color:red;
+    padding:50%;
 }
 th,
 td {
