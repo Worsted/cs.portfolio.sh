@@ -1,0 +1,42 @@
+p {
+    text-align:center;
+    font-size:40px;
+    float:inherit;
+    padding:100px;
+}
+#dropdown {
+    width:150px;
+    font-size:30px;
+    padding:20px;
+    text-align:center;
+}
+body {
+    background-image:url("http://previews.123rf.com/images/pdreams/pdreams1210/pdreams121000004/15953097-mathematic-school-design-background-illustration-Stock-Illustration-math-background-mathematics.jpg");
+    background-origin:center;
+    background-size:cover;
+}
+
+#submitButton {
+    width:500px;
+    text-align:center;
+    padding:20px;
+    font-size:40px;
+}
+div {
+    text-align:center;
+}
+#input1 {
+    height:40px;
+    padding:20px;
+    font-size:30px;
+    width:1250px;
+}
+#input2 {
+    height:40px;
+    padding:20px;
+    font-size:30px;
+    width:1250px;
+}
+#akbar {
+    text-align:center;
+}

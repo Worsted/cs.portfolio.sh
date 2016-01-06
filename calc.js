@@ -30,4 +30,12 @@ function doMath() {
         answer = Math.pow(input1.value,input2.value);
         display.innerHTML = answer;
     }
+    if  (dropdown.value == "sqrt"){
+        answer = Math.sqrt (parseInt(input1.value));
+        display.innerHTML = answer;
+    }
+    if  (dropdown.value == "cbrt"){
+        answer = Math.cbrt (parseInt(input1.value));
+        display.innerHTML = answer; 
+    }
 }
