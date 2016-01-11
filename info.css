@@ -1,0 +1,72 @@
+#item1 {
+padding:70px;
+    width:300px;
+background-image:url("https://signup.leagueoflegends.com/theme/signup_theme/img/signup_logo2_clean.png");
+background-repeat:no-repeat;
+}
+#item2 {
+    background-image:url("http://1.bp.blogspot.com/-BDFn9yk-SNM/VaH7QmzK0LI/AAAAAAAAtXU/QQYhUYtqrpQ/s320/logo_bf.png");
+    width:320px;
+    height:189px;
+    margin-right:500px;
+    margin-top:50px;
+}
+#item3 {
+    background-image:url("http://images.joinsquad.com/Logos/squadlogo_white_hires.png");
+    width:422px;
+    height:185px;
+}
+#item4 {
+    background-image:url("http://i.imgur.com/IQrtEwD.png");
+    width:400px;
+    height:175px;
+}
+body {
+    background-image:url("http://wallpapercave.com/wp/jCVOltE.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+}
+header {
+    border:3px solid blue;
+    display:block;
+    width:200px;
+    text-align:center;
+    background-color:orange;
+    font-size:30px;
+}
+#info1 {
+    border:3px solid blue;
+    width:500px;
+    text-align:center;
+    background-color:orange;
+margin-left:600px;
+padding:20px;
+font-family:sans-serif;
+}
+#info2 {
+    border:3px solid blue;
+    width:500px;
+    text-align:center;
+    background-color:orange;
+margin-left:600px;
+padding:20px;
+font-family:sans-serif;
+}
+#info3 {
+    border:3px solid blue;
+    width:500px;
+    text-align:center;
+    background-color:orange;
+margin-left:600px;
+padding:20px;
+font-family:sans-serif;
+}
+#info4 {
+    border:3px solid blue;
+    width:500px;
+    text-align:center;
+    background-color:orange;
+margin-left:600px;
+padding:20px;
+font-family:sans-serif;
+}
