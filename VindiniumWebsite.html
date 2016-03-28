@@ -1,0 +1,77 @@
+<html>
+    <head>
+     <link rel="stylesheet" href="Vindinium.css" type="text/css" />
+     <title>Loading Bot_Yee</title>
+          </head>
+           <ul><li><a href="index.html"> Index </a></li></ul>
+        <body>
+          <h1>Displaying Bot_Yee information</h1>
+          <h2>Operation Vindinium</h2>
+          <p>Vindinium is a website designed for AI programming.
+          Players can program a bot and pit it against other bots in a 4 player game.
+          Players win by having the most gold on the final turn of the game.
+          You get gold by collecting mines that are scattered across the map. Mine grant 1 gold at the end of every turn.
+          After every turn you lose 1 HP out of your total 100 HP. At the end of your turn, you attack anyone adjacent from you.
+          There are taverns that take 2 gold and restore 50 HP when used.
+          </p>
+          <p>My bot is able to collect free mines, mark other bots for death, and continuously heal to survive if it is ridiculously ahead of the other bots.
+          <pre><code> 
+         var task; 
+         if (bot.freeMines > 0) {
+         task = "freemines" ;
+         }
+         </pre></code>
+         <p>The first task that my bot will look for a freemine until he has 1.</p>
+           <pre><code>
+         else if(bot.yourBot.mineCount > 0 
+         && bot.yourBot.life <=50  
+         || bot.yourBot.gold >= 300 
+         && bot.yourBot.mineCount > 4 
+         && bot.yourBot,life <= 99) {
+         task = "HP";
+          }
+           </code></pre>
+           <p>My bot will heal when it has at least 1 mine and it's HP is less than 50. 
+           The other condition is when my bot has over 300 gold, more than 4 mines, and it's life is less than or equal to 99 then it will start to tavern spam which is basically an infinite heal.</p>
+          <pre><code>
+          else if (bot.yourBot.life > bot.enemyBots.life) {
+          task = "attack"
+          }
+          </code></pre>
+          <p>My bot will attack anyone nearby if all of the bot's HP are lower than my own.</p>
+           <pre><code>
+          else if (bot.yourBot.gold < 100) {
+          task ="freemines"
+          }
+          </code></pre>
+          <p>If my bot has under 100 gold it will start to look for freemines again.</p>
+           <pre><code>
+          else if (bot.yourBot.life > bot.enemyBots.life 
+          || bot.bot1.mineCount >= bot.yourBot.mineCount 
+          && bot.bot2.mineCount && bot.bot3.mineCount
+          && bot.bot4.mineCount  || bot.bot2.mineCount 
+          >=  bot.yourBot.mineCount  && bot.bot1.mineCount
+          && bot.bot3.mineCount && bot.bot4.mineCount 
+          || bot.bot3.mineCount >= bot.yourBot.mineCount 
+          && bot.bot2.mineCount && bot.bot1.mineCount &&
+          bot.bot4.mineCount  || bot.bot4.mineCount 
+          >= bot.yourBot.mineCount && bot.bot2.mineCount
+          && bot.bot3.mineCount && bot.bot1.mineCount) {
+          task ="attackMiner";
+          }
+          </code></pre>
+          
+          <p>This huge line of code is for marking people for death. It targets people with less HP than it and bots that have more mines than all of the bots in the game.
+          My bot will ruthlessly chase them down until they die before switching targets.</p>
+           <pre><code>
+          else {
+          task ="attackMiner";
+          }
+          </code></pre>
+          
+         <p>My bot will mark people for death if none of these conditions is true.</p>
+            
+            <p>Overall Vindinium was a great challenge in "thinking outside the box" per se. We had programmed actual tasks and our bot's behavior was all dictated based on the situation that was currently going on inside the game. I learned that the conditionals dictated the behavior of your bot every step of the way. Since that was the case, it was easy to scrap the conditions you had and try to make a whole new set for your bot and watch it do different things. I loved programming AI and trying to get my bot to do ridiculous things in certain situations. To be honest, I would love to keep working on my bot and trying new conditionals for it to become the greatest bot ever.</p>
+        </body>
+  
+</html>

@@ -12,6 +12,7 @@ var choice11 = document.createElement("BUTTON");
 var choice12 = document.createElement("BUTTON");
 var choice13 = document.createElement("BUTTON");
 var choice14 = document.createElement("BUTTON");
+// These variables are the buttons for the game.
 var t3 = document.createTextNode("Try to talk to him");
 var t4 = document.createTextNode("Leave the room");
 var t5 = document.createTextNode("Intervene the 'euthanasia' ");
@@ -25,6 +26,7 @@ var t12 = document.createTextNode("");
 var t13 = document.createTextNode("Run from the room");
 var t14 = document.createTextNode("Call for help");
 var t15 = document.createTextNode("");
+//These are the text values that were used for the buttons
 var s2 = document.createTextNode("Along the hallway you find a room and it says, 'Solitary Confinement.' Inside, there is a man in a straitjacket staring into the corner with indifferent eyes, a noose and chair in the middle of the room. There is a knife in the middle of the room and you pick it up. Do you?");
 var s3 = document.createTextNode("Along the hallway you find a room and it says, 'ER.' You head inside and the sight you see shocks you. The room is dark except the center and you see a group of people huddling around an operating table. The people are trying to save a man with a disease. 'It seems the patient is diagnosed with leprosy' one said 'Is that so?' he sighed. 'It's a shame we can't cure him, we should just put him out of his misery,' the other said. You know for a fact that leprosy can be cured. These doctors seem to be intentionally trying to kill that man. Do you? ");
 var s4 = document.createTextNode("You try to speak with the man but it is futile as he is still staring at the corner. ' The scariest part is that knowing that it will all end with no warning, there is no point in trying anymore. Right? ' You can't tell whether or not he is talking to you or to himself. He moves toward the noose in the middle of the room. Do you? ");
@@ -35,6 +37,7 @@ var s8 = document.createTextNode("You watch in satisfaction as his lifeless eyes
 var s9 = document.createTextNode("You ran from the room. You don't stop and just keep running down the hall. The lights start to get dimmer and dimmer. The power in deeper parts of the hospital must be running out. Lights start to flicker on and off and you come to a dead end. You turn around. 'Why, why didn't you save me?' a voice down the hall says. His body comes under light. His body is completely mangled. His right arm is torn off and his body looks more like a pile of gurgling intestines all over. It was the man from the ER. 'Why didn't you help me? I could've been saved. But no, you only care about yourself. Well, call help. Nobody will come to help you now.' Only screams could be heard from that hallway. BAD END, if you would like a different ending then refresh the page!");
 var s10 = document.createTextNode("You ran back where you came and you find some people and explain the situation. They join you and you all head back into the ER to apprehend the criminals. You step forward to show you are the leader of the group and the doors shut behind your group. 'You came back, let's see if someone will help you,' the doctors had said. You are grabbed from behind by your 'teammates' and pinned. 'Let's perform and experiment shall we?' You are attached to the table, unable to move. They huddle around you. Your life in the fate of another's hands. TO BE CONTINUED END, if you would like to retry for a different ending then refresh the page.");
 var s11 = document.createTextNode("You burst out of the room and start to panic. You can't go back in there. Who knows what they might be doing? What do you do in this situation? You hear the whirring and sawing of a machine accompanied by screams. Do you?");
+//These are the text values used for the scenario that happened because of your choices
 var scenario1 = document.getElementById("scenario1");
 var scenario2 = document.createElement(scenario2);
 var scenario3 = document.createElement(scenario3);
@@ -46,8 +49,9 @@ var scenario8 = document.createElement(scenario8);
 var scenario9 = document.createElement(scenario9);
 var scenario10 = document.createElement(scenario10);
 var scenario11 = document.createElement(scenario11);
+//These are the variables that will have text values put into them.
 
-
+//Below are the functions that trigger the next event when you click on the buttons.
 choice1.addEventListener("click",function(){
     
     choice1.style.display = "none";
@@ -59,8 +63,6 @@ choice1.addEventListener("click",function(){
     document.body.appendChild(scenario2);
     document.body.appendChild(choice3);
     document.body.appendChild(choice4);
-
-
 });
 
 choice2.addEventListener("click",function(){
