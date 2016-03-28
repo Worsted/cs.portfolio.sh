@@ -32,7 +32,7 @@
           }
            </code></pre>
            <p>My bot will heal when it has at least 1 mine and it's HP is less than 50. 
-           The other condition is when my bot has over 300 gold, more than 4 mines, and it's life is less than or equal to 99 then it will start to tavern spam which is basically an infinite heal.</p>
+           The other condition is when my bot has over 300 gold, more than 4 mines, and it's life is less than or equal to 99 then it will start to tavern spam which is basically an infinite heal only when it has a large amount of mines. The reason for having a flat gold cap is that people will kill me sometimes to steal my mines, so I only have my bot be able to spam if it has a constant flow of gold.</p>
           <pre><code>
           else if (bot.yourBot.life > bot.enemyBots.life) {
           task = "attack"

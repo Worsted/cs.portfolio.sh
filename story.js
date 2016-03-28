@@ -15,7 +15,7 @@ var choice14 = document.createElement("BUTTON");
 // These variables are the buttons for the game.
 var t3 = document.createTextNode("Try to talk to him");
 var t4 = document.createTextNode("Leave the room");
-var t5 = document.createTextNode("Intervene the 'euthanasia' ");
+var t5 = document.createTextNode("Intervene the 'euthanasia'");
 var t6 = document.createTextNode("Try to leave");
 var t7 = document.createTextNode("Talk him out of it");
 var t8 = document.createTextNode("Let him do it");
