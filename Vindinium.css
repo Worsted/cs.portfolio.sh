@@ -65,3 +65,9 @@ body {
      background-repeat:no-repeat;
      background-attachment:fixed;
 }
+#linky {
+     list-style:none;
+    font-size:30px;
+    text-align:left;
+    border:30px;
+}

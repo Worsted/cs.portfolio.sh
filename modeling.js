@@ -279,18 +279,18 @@ document.body.appendChild(refillablePotion);
 
 potions.addEventListener("click" , function(){
     document.body.appendChild(potionNote);
-        biscuitNote.style.display = "none";
+     document.body.appendChild(biscuitNote);
         refillableNote.style.display = "none";
 });
 
 biscuit.addEventListener("click" , function(){
+     document.body.appendChild(potionNote);
     document.body.appendChild(biscuitNote);
-        potionNote.style.display = "none";
          refillableNote.style.display = "none";
 });
 refillablePotion.addEventListener("click" , function(){
     document.body.appendChild(refillableNote);
-     potionNote.style.display = "none";
-    biscuitNote.style.display = "none";
+      document.body.appendChild(potionNote);
+     document.body.appendChild(biscuitNote);
 });
 
