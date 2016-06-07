@@ -9,3 +9,21 @@ body {
     font-weight:bold;
     font-size:26;
 }
+
+BUTTON {
+    font-size:30;
+}
+IMG {
+    height:50%;
+    width:50%;
+    min-height:300px;
+    min-width:300px;
+}
+#choice1 {
+    max-height:310px;
+    max-width:310px;
+}
+#choice2 {
+    max-height:310px;
+    max-width:310px;
+}
