@@ -1,5 +1,6 @@
 p {
     font-size:30;
+    text-decoration:underline;
 }
 body {
     background-color:orange;
@@ -12,6 +13,8 @@ body {
 
 BUTTON {
     font-size:30;
+    margin:0 auto;
+    
 }
 IMG {
     height:50%;
