@@ -37,7 +37,7 @@ suicideassistance.style.display = "block";
 
 
 
-// These variables are the buttons for the game and some images. The variables for the images are a short description of what the image actually is.
+// The variables above are the buttons for the game and some images. The variables for the images are a short description of what the image actually is.
 
 
 
@@ -60,8 +60,7 @@ var t15 = document.createTextNode("");
 
 
 
-
-//These are the text values that were used for the buttons. The text are the words that will appear on buttons to tell you what you are doing when you click the button.
+//Above are the text values that were used for the buttons. The text are the words that will appear on buttons to tell you what you are doing when you click the button.
 
 
 
@@ -79,7 +78,7 @@ var s11 = document.createTextNode("You burst out of the room and start to panic.
 
 
 
-//These are the text values used for the scenario that happened because of your choices. These are the scenarios in which you currently take place in
+//Above are the text values used for the scenario that happened because of your choices. These are the scenarios in which you currently take place in
 
 
 
